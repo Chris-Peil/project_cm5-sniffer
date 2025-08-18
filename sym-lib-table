@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CM5IO")(type "KiCad")(uri "${KIPRJMOD}/CM5IO.kicad_sym")(options "")(descr ""))
+  (lib (name "molex_43045-0600")(type "KiCad")(uri "${KIPRJMOD}/cm5-sniffer-libraries/molex_43045-0600.kicad_sym")(options "")(descr ""))
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/cm5-sniffer-libraries/CM4IO.kicad_sym")(options "")(descr ""))
+)
