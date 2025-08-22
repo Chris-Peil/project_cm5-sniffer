@@ -1265,7 +1265,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 130.81) (xy 195.58 130.81)
+			(xy 186.69 130.81) (xy 214.63 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1302,6 +1302,16 @@
 			(type solid)
 		)
 		(uuid "14f9e820-8d3f-4833-ac31-9b9e9028d8dc")
+	)
+	(wire
+		(pts
+			(xy 205.74 121.92) (xy 214.63 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189edd4a-b76c-45ab-98cb-165d5866efa0")
 	)
 	(wire
 		(pts
@@ -1595,6 +1605,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 142.24) (xy 214.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c0e440-43a6-479a-8740-479ad267d3f5")
+	)
+	(wire
+		(pts
 			(xy 62.23 49.53) (xy 74.93 49.53)
 		)
 		(stroke
@@ -1615,13 +1635,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 125.73) (xy 195.58 125.73)
+			(xy 186.69 125.73) (xy 214.63 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf0336c2-46fc-4f66-b979-ab598cfb2f81")
+	)
+	(wire
+		(pts
+			(xy 186.69 139.7) (xy 214.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9387831-7f1a-4453-8a7a-33494dde80c2")
 	)
 	(wire
 		(pts
@@ -1782,6 +1812,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d5a2b2f-0ea3-4086-b538-65807005ae2a")
+	)
+	(label "+12v"
+		(at 205.74 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cd695c0-cf1a-4f51-8fde-18370fb6c751")
 	)
 	(label "USB2_N"
 		(at 74.93 57.15 180)
@@ -3574,6 +3614,26 @@
 				(justify left)
 			)
 		)
+		(pin "RX" input
+			(at 186.69 139.7 0)
+			(uuid "6a6693e1-2382-4275-bd61-a160e7055591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX" input
+			(at 186.69 142.24 0)
+			(uuid "d552e43d-7843-441c-8991-19c4a9a0acbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "CM5IO"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -4029,6 +4089,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3.3v" input
+			(at 214.63 130.81 180)
+			(uuid "cdb7324a-af4b-4870-a3cb-e6b76d46c9e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5v" input
+			(at 214.63 125.73 180)
+			(uuid "37920f14-a808-443e-97b8-70cd522ebe3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+12v" input
+			(at 214.63 121.92 180)
+			(uuid "ce7b0ff4-7bba-4c93-8859-a96200548062")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" output
+			(at 214.63 139.7 180)
+			(uuid "1894439e-22d2-4e9f-9430-a58ea5b51aef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" output
+			(at 214.63 142.24 180)
+			(uuid "dbb2a326-51d8-4d75-a19b-d8aba9e3307a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
