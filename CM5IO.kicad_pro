@@ -824,7 +824,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "./SVG",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -850,16 +850,16 @@
       "CM5_GPIO ( Ethernet, GPIO, SDCARD)"
     ],
     [
-      "00000000-0000-0000-0000-00005ed4bb5b",
-      "PCIe-M2"
-    ],
-    [
       "2346c779-d2e0-40f0-bb59-a075bb7e9440",
       "RS232-TTL-converter"
     ],
     [
       "f86f035a-d1fa-4391-9f77-1afe9d698e62",
       "Power Supply"
+    ],
+    [
+      "d0529306-9442-44ab-8bb7-7d82d3be2094",
+      "USB-UART-converter"
     ]
   ],
   "text_variables": {}
