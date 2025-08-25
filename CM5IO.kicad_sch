@@ -3616,7 +3616,7 @@
 		)
 		(pin "RX" input
 			(at 186.69 139.7 0)
-			(uuid "6a6693e1-2382-4275-bd61-a160e7055591")
+			(uuid "bcf84d0b-4483-4376-8636-a0f87f1f6d42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3626,7 @@
 		)
 		(pin "TX" input
 			(at 186.69 142.24 0)
-			(uuid "d552e43d-7843-441c-8991-19c4a9a0acbd")
+			(uuid "55b994ec-3b8a-4644-bee0-567e811d4826")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4123,7 @@
 		)
 		(pin "RX" output
 			(at 214.63 139.7 180)
-			(uuid "1894439e-22d2-4e9f-9430-a58ea5b51aef")
+			(uuid "c38ce5cb-008a-4deb-b787-4201a6e65072")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4133,7 @@
 		)
 		(pin "TX" output
 			(at 214.63 142.24 180)
-			(uuid "dbb2a326-51d8-4d75-a19b-d8aba9e3307a")
+			(uuid "1e9852ab-7107-41c5-9172-b56c62204e5e")
 			(effects
 				(font
 					(size 1.27 1.27)

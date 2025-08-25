@@ -4,4 +4,5 @@
   (lib (name "molex_43045-0600")(type "KiCad")(uri "${KIPRJMOD}/cm5-sniffer-libraries/molex_43045-0600.kicad_sym")(options "")(descr ""))
   (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/cm5-sniffer-libraries/CM4IO.kicad_sym")(options "")(descr ""))
   (lib (name "FDV301N")(type "KiCad")(uri "${KIPRJMOD}/cm5-sniffer-libraries/FDV301N.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74HC14DR")(type "KiCad")(uri "${KIPRJMOD}/cm5-sniffer-libraries/SN74HC14DR.kicad_sym")(options "")(descr ""))
 )
