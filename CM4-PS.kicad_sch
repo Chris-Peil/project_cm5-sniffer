@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "069febb1-25c8-4504-a08a-c7e9a4a3db9a")
 	(paper "A4")
+	(title_block
+		(title "Power Supply")
+		(date "2025-08-26")
+		(rev "1")
+		(company "Astrosystems")
+		(comment 1 "Designed By - C.P")
+	)
 	(lib_symbols
 		(symbol "CM4IO:AP64351"
 			(exclude_from_sim no)
