@@ -7921,6 +7921,36 @@
 		)
 		(uuid "33e14999-b5ae-46d2-ac28-01787a512419")
 	)
+	(text "GPIO13"
+		(exclude_from_sim no)
+		(at 161.036 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37f003d8-b031-43a7-949b-d5405c58e571")
+	)
+	(text "GPIO13"
+		(exclude_from_sim no)
+		(at 27.686 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "581cd96a-8bf7-4f51-a176-7381c07e4118")
+	)
+	(text "GPIO15"
+		(exclude_from_sim no)
+		(at 189.484 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "735c81ff-7628-4f42-97ff-1746a56e8e59")
+	)
 	(text "GPIO Voltage select\n"
 		(exclude_from_sim no)
 		(at 271.78 106.68 0)
@@ -7964,6 +7994,16 @@
 			(justify left bottom)
 		)
 		(uuid "be8a7bd0-40d5-4163-83c6-dbf42198fdb7")
+	)
+	(text "GPIO15"
+		(exclude_from_sim no)
+		(at 110.744 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d17dc49a-2f5f-4ee2-8da2-04309c297241")
 	)
 	(text "PWR LED"
 		(exclude_from_sim no)
@@ -8309,6 +8349,10 @@
 		(uuid "ba9ffa16-c601-4b28-a863-472c9094cb55")
 	)
 	(no_connect
+		(at 39.37 115.57)
+		(uuid "bef1323c-0cd2-4b71-9ca7-c75f0aab5d33")
+	)
+	(no_connect
 		(at 39.37 110.49)
 		(uuid "c399657a-fff5-4af1-9c4f-92ee20314fd7")
 	)
@@ -8361,16 +8405,6 @@
 			(type solid)
 		)
 		(uuid "0366978a-3e89-4bad-abec-cf07fade1137")
-	)
-	(wire
-		(pts
-			(xy 25.4 115.57) (xy 39.37 115.57)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "050e333c-414f-445b-bb63-9c31d58a611a")
 	)
 	(polyline
 		(pts
@@ -9414,16 +9448,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 54.61) (xy 39.37 54.61)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "7f6c64d0-de67-4b74-b5d8-420e361384dc")
-	)
-	(wire
-		(pts
 			(xy 100.33 52.07) (xy 114.3 52.07)
 		)
 		(stroke
@@ -9814,7 +9838,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 85.09) (xy 114.3 85.09)
+			(xy 100.33 85.09) (xy 116.84 85.09)
 		)
 		(stroke
 			(width 0)
@@ -10434,6 +10458,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 54.61) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea200b70-e4dd-488b-b762-1c44a8f6f7dc")
+	)
+	(wire
+		(pts
 			(xy 38.1 21.59) (xy 38.1 29.21)
 		)
 		(stroke
@@ -10861,26 +10895,6 @@
 			(justify left bottom)
 		)
 		(uuid "1d27c77d-c33f-442a-bd7b-7b44d10eb43c")
-	)
-	(label "GPIO15"
-		(at 114.3 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1d901cb2-360a-4708-b3ed-e4b172d3996f")
-	)
-	(label "GPIO13"
-		(at 24.13 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1dfbb08e-4502-4041-b288-07dbab29f6fa")
 	)
 	(label "GPIO7"
 		(at 114.3 67.31 180)
@@ -11332,16 +11346,6 @@
 		)
 		(uuid "917cd117-92bc-45a7-bf89-1770f5fb3f75")
 	)
-	(label "GPIO15"
-		(at 193.04 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91fb974e-99de-4e0c-bee5-7a6f88905951")
-	)
 	(label "GPIO5"
 		(at 157.48 67.31 0)
 		(effects
@@ -11522,16 +11526,6 @@
 		)
 		(uuid "c4b1e7cf-3aa3-45c5-8585-741388413869")
 	)
-	(label "VBAT"
-		(at 25.4 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9293921-3f4d-4839-bf8f-cb50bb7c5431")
-	)
 	(label "ID_SC"
 		(at 114.3 64.77 180)
 		(effects
@@ -11651,16 +11645,6 @@
 			(justify left bottom)
 		)
 		(uuid "dfcf21ae-fd3c-40b2-9ae0-524856d8c6da")
-	)
-	(label "GPIO13"
-		(at 157.48 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0e4f26b-9768-45ce-836e-303c9ffcd23d")
 	)
 	(label "GPIO_VREF"
 		(at 279.4 110.49 180)
@@ -11862,6 +11846,17 @@
 		)
 		(uuid "93f47a5a-3e27-4ecb-a6a0-b8bbb813df17")
 	)
+	(hierarchical_label "TX"
+		(shape input)
+		(at 20.32 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3072d91-bf54-4c06-bf99-e7b7a87666ed")
+	)
 	(hierarchical_label "+3.3v"
 		(shape output)
 		(at 30.48 177.8 90)
@@ -11894,6 +11889,17 @@
 			(justify left)
 		)
 		(uuid "f1925da3-6d02-4d29-b13d-37e38f996a50")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 116.84 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd067d4c-6bd4-4b70-8da6-9b9c15a0bf2b")
 	)
 	(hierarchical_label "+5v"
 		(shape input)

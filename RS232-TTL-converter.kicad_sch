@@ -3245,6 +3245,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 25.4) (xy 33.02 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56adc3e0-01fa-4b89-92cd-f6ba991eb626")
+	)
+	(wire
+		(pts
 			(xy 217.17 97.79) (xy 220.98 97.79)
 		)
 		(stroke
@@ -3823,26 +3833,6 @@
 		)
 		(uuid "00092aef-9087-43da-85c5-8e2bd6984d7f")
 	)
-	(label "Device RX"
-		(at 119.38 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "063ef5aa-77c4-4359-88dc-efddee607065")
-	)
-	(label "Device TX"
-		(at 119.38 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b4600f3-6321-4501-bf8c-7bbca2ebc7f1")
-	)
 	(label "+5v"
 		(at 134.62 106.68 0)
 		(effects
@@ -3903,15 +3893,15 @@
 		)
 		(uuid "5219cfc7-18d3-4be2-b593-43ebc46cf20d")
 	)
-	(label "Device TX"
-		(at 93.98 76.2 180)
+	(label "+3.3v"
+		(at 33.02 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "6f45a6d4-d75a-485b-8f21-dd9548320bdb")
+		(uuid "6ceb38ca-1cce-4549-ba55-5479b43dfc1b")
 	)
 	(label "+5v"
 		(at 195.58 118.11 0)
@@ -3922,16 +3912,6 @@
 			(justify left bottom)
 		)
 		(uuid "82c6ff3b-3e1b-4b06-b78d-0b16dbab8e81")
-	)
-	(label "Device RX"
-		(at 93.98 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "83e8ef7a-1033-4ac0-a752-237102469539")
 	)
 	(label "+5v"
 		(at 180.34 50.8 0)
@@ -4029,6 +4009,17 @@
 	)
 	(hierarchical_label "DeviceTX"
 		(shape input)
+		(at 119.38 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af9cf5ae-d46e-4f97-a65f-e5513ce1506a")
+	)
+	(hierarchical_label "DeviceTX"
+		(shape input)
 		(at 95.25 76.2 0)
 		(effects
 			(font
@@ -4037,6 +4028,28 @@
 			(justify left)
 		)
 		(uuid "b2a9d105-e908-42cd-8418-221b7bf648d5")
+	)
+	(hierarchical_label "+3.3v"
+		(shape input)
+		(at 33.02 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "becf187b-ae36-4476-9754-8781557d0130")
+	)
+	(hierarchical_label "DeviceRX"
+		(shape input)
+		(at 119.38 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fec77358-1a2d-4798-9a69-43e131d7d1a8")
 	)
 	(symbol
 		(lib_id "Device:R")

@@ -355,7 +355,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 0 -2.54 0)
 				(length 5.08)
 				(name "2"
@@ -373,7 +373,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 0 -5.08 0)
 				(length 5.08)
 				(name "3"
